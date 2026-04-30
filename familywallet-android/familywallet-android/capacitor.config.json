@@ -1,0 +1,22 @@
+{
+  "appId": "com.familywallet.app",
+  "appName": "FamilyWallet",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#064E3B",
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "minWebViewVersion": 60
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#064E3B",
+      "overlaysWebView": false
+    }
+  }
+}
